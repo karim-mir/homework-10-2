@@ -10,7 +10,6 @@ logging.basicConfig(level=logging.INFO, handlers=[handler])
 
 logger = logging.getLogger()
 
-
 def get_mask_card_number(card_number: int) -> str:
     logger.info("Получен номер карты для маскирования: %s", card_number)
     # Преобразуем число в строку и проверяем, состоит ли оно только из цифр
